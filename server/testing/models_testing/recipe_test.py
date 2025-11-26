@@ -7,7 +7,7 @@ from models import db, Recipe
 class TestRecipe:
     '''User in models.py'''
 
-def test_has_attributes(self):
+def test_has_attributes():
     '''has attributes title, instructions, and minutes_to_complete.'''
     
     with app.app_context():
